@@ -1,4 +1,4 @@
-FROM azul/zulu-openjdk-alpine:11.0.3 as packager
+FROM azul/zulu-openjdk-alpine:12.0.1 as packager
 
 RUN { \
         java --version ; \
